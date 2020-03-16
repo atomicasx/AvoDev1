@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/xampp/htdocs/avocadocrm/themes/SuiteP/tpls/_headerModuleList.tpl</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/include/MVC/View/SugarView.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/themes/SuiteP/tpls/_head.tpl</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/config.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/b/cache0/modules/AOS_Quotes/AOS_Quotesvardefs.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/custom/modules/AOS_Quotes/logic_hooks.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/custom/modules/AOS_Invoices/validateaddress.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/custom/modules/AOS_Quotes/validateaddress.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/custom/modules/Accounts/logic_hooks.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/b/cache0/modules/AOS_Invoices/AOS_Invoicesvardefs.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/custom/modules/AOS_Quotes/converToInvoice.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/popup.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/themes/SuiteP/tpls/footer.tpl</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/themes/SuiteP/tpls/login.tpl</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/scanner.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/custom/modules/fyn_routes/views/view.detail.php</file>
+            <file>file:/E:/xampp/htdocs/avocadocrm/modules/Users/authentication/SugarAuthenticate/FactorAuthEmailCode.tpl</file>
+        </group>
+    </open-files>
+</project-private>

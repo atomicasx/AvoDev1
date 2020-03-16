@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+* {
+    color: #444444;
+    font-size: 9pt;
+    line-height: 16px;
+    text-decoration: none;
+    font-family: Arial,Geneva,Helvetica,Verdana,sans-serif;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+a {
+	color: #003399;
+    font-size: 9pt;
+    line-height: 12pt;
+    text-decoration: underline;
+}

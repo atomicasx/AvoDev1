@@ -1,0 +1,31 @@
+<?php 
+$app_list_strings['product_code_dom'] = array (
+  'Enable' => 'Enabled',
+  'Disable' => 'Disabled',
+);$app_list_strings['product_category_dom'] = array (
+  '' => '',
+  'AvacadoClass1' => 'Avacado Class1',
+  'AvacadoClass2' => 'Avacado Class2',
+  'AvacadoOrganic' => 'Avacado Organic',
+  'Other' => 'Other',
+);$app_list_strings['type_0'] = array (
+  'In_Stock' => 'In Stock',
+  'Out_of_Stock' => 'Out of Stock',
+  'Disable' => 'Disable',
+);$app_list_strings['truck_list'] = array (
+  'V1' => 'V1',
+  'V2' => 'V2',
+  'V3' => 'V3',
+  'V4' => 'V4',
+  'V5' => 'V5',
+  'V6' => 'V6',
+  'V7' => 'V7',
+  'V8' => 'V8',
+  'V9' => 'V9',
+  'V10' => 'V10',
+  'V11' => 'V11',
+  'V12' => 'V12',
+  'V13' => 'V13',
+  'V14' => 'V14',
+  'V15' => 'V15',
+);

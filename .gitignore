@@ -1,0 +1,15 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+/custom/modules/*/Ext
+/custom/application
+/custom/blowfish
+/custom/history
+cache
+*.ext.php
+suitecrm.log
+/modules/AOD_Index/Index
+/config.php
+upload
+.htaccess
+vendor
+/vendor
+

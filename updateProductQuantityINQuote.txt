@@ -1,0 +1,954 @@
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '4', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 3
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '5', maduros_ripe_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 4
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 1
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 1
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', maduros_ripe_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 1
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '1' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', maduros_ripe_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 1
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', maduros_ripe_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 1
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', rayados_breaking_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', maduros_ripe_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 1
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', rayados_breaking_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 2
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 2
+
+
+update aos_products_cstm set invoice_stock_c = '5', verdes_firm_c = '10' where id_c = '943da1d3-77eb-847b-51ef-5c0aa778f35b'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 5
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '5', verdes_firm_c = '10' where id_c = '943da1d3-77eb-847b-51ef-5c0aa778f35b'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 5
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '4', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 3
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '4', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 3
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '4', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 3
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '4', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 3
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '5', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 4
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '5', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 4
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '5', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 4
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', maduros_ripe_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', maduros_ripe_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', maduros_ripe_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '5', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 4
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '7', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 6
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '8', verdes_firm_c = '6' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 6
+
+
+newProdQty : 2
+
+
+update aos_products_cstm set invoice_stock_c = '9', verdes_firm_c = '5' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 6
+
+
+newProdQty : 3
+
+
+update aos_products_cstm set invoice_stock_c = '10', verdes_firm_c = '4' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 9
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '12', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 9
+
+
+newProdQty : 3
+
+
+update aos_products_cstm set invoice_stock_c = '11', verdes_firm_c = '3' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 9
+
+
+newProdQty : 2
+
+
+update aos_products_cstm set invoice_stock_c = '12', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 11
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '12', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 11
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '11', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 10
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '12', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 11
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', maduros_ripe_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 1
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', rayados_breaking_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '5', verdes_firm_c = '10' where id_c = '943da1d3-77eb-847b-51ef-5c0aa778f35b'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 5
+
+
+update aos_products_cstm set invoice_stock_c = '12', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 9
+
+
+newProdQty : 3
+
+
+update aos_products_cstm set invoice_stock_c = '12', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 11
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '12', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 11
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '12', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 10
+
+
+newProdQty : 2
+
+
+update aos_products_cstm set invoice_stock_c = '12', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 11
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '0' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '5', verdes_firm_c = '5' where id_c = '91e52910-c7e0-772e-2291-5e3692a7eef7'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 5
+
+
+update aos_products_cstm set invoice_stock_c = '12', rayados_breaking_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 11
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', verdes_firm_c = '2' where id_c = '91e52910-c7e0-772e-2291-5e3692a7eef7'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', verdes_firm_c = '5' where id_c = '91e52910-c7e0-772e-2291-5e3692a7eef7'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', verdes_firm_c = '5' where id_c = '91e52910-c7e0-772e-2291-5e3692a7eef7'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '13', verdes_firm_c = '3' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 12
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '14', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 13
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '15', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 14
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '15', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 14
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '15', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 14
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '16', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 15
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '16', verdes_firm_c = '0' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 15
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', rayados_breaking_c = '6' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 2
+
+
+update aos_products_cstm set invoice_stock_c = '2', rayados_breaking_c = '6' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 2
+
+
+update aos_products_cstm set invoice_stock_c = '2', rayados_breaking_c = '6' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 2
+
+
+update aos_products_cstm set invoice_stock_c = '2', rayados_breaking_c = '6' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 2
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '2' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '2' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '2' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '2' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '2' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', maduros_ripe_c = '34' where id_c = '61124cf2-2f0e-d74d-d715-5c0821ba63ab'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', maduros_ripe_c = '34' where id_c = '61124cf2-2f0e-d74d-d715-5c0821ba63ab'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '8' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 1
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '7' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 2
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '4', verdes_firm_c = '6' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 3
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+invoice_stock_c : 0
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', verdes_firm_c = '4' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+
+update aos_products_cstm set invoice_stock_c = '6', verdes_firm_c = '4' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+invoice_stock_c : 5
+
+
+newProdQty : 1
+
+

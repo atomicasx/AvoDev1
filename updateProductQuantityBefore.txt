@@ -1,0 +1,1185 @@
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '971dba70-0a73-0d55-cdab-5de6b7236df5' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 3
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 3
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '2', maduros_ripe_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 3
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'e56adebf-4cde-e1ae-b269-5de6c125c8f2' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 1
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '0', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'e56adebf-4cde-e1ae-b269-5de6c125c8f2' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 1
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '0', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'e56adebf-4cde-e1ae-b269-5de6c125c8f2' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 1
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '0', maduros_ripe_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'ce640125-79e4-a8d1-7929-5de6cb4533d2' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '2' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'caf5938d-cc78-7feb-7a86-5de6cdd4e6a5' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', maduros_ripe_c = '1' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'caf5938d-cc78-7feb-7a86-5de6cdd4e6a5' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '1', maduros_ripe_c = '1' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 1
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '1' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'caf5938d-cc78-7feb-7a86-5de6cdd4e6a5' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', maduros_ripe_c = '1' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '1' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 1
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '0', rayados_breaking_c = '1' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '83ef7fac-ca56-94ea-166d-5df383d416d5' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '83ef7fac-ca56-94ea-166d-5df383d416d5' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 2
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '22b00aa2-4fd9-21d6-567f-5df88b65426f' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '15' where id_c = '943da1d3-77eb-847b-51ef-5c0aa778f35b'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 15
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'de48a830-2c1e-beef-1593-5dfd02262dce' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '2800a3ad-7150-a689-9c71-5de6c848a979' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'de48a830-2c1e-beef-1593-5dfd02262dce' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '22b00aa2-4fd9-21d6-567f-5df88b65426f' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '15' where id_c = '943da1d3-77eb-847b-51ef-5c0aa778f35b'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 5
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'de48a830-2c1e-beef-1593-5dfd02262dce' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '1701e688-db4b-fef6-3c6c-5e03021338eb' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '3', rayados_breaking_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 3
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '1701e688-db4b-fef6-3c6c-5e03021338eb' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '3', rayados_breaking_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 3
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'de48a830-2c1e-beef-1593-5dfd02262dce' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '3', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 3
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '1701e688-db4b-fef6-3c6c-5e03021338eb' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '3', rayados_breaking_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 3
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '4ae2aaee-5aea-dcc1-8ccc-5e05e1bd1245' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '4', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 4
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '4ae2aaee-5aea-dcc1-8ccc-5e05e1bd1245' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '4', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 4
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '4ae2aaee-5aea-dcc1-8ccc-5e05e1bd1245' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '4', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 4
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '43420d4b-2eb6-0078-8695-5e05e9e9443b' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', maduros_ripe_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '43420d4b-2eb6-0078-8695-5e05e9e9443b' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', maduros_ripe_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '43420d4b-2eb6-0078-8695-5e05e9e9443b' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', maduros_ripe_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '4ae2aaee-5aea-dcc1-8ccc-5e05e1bd1245' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '4ae2aaee-5aea-dcc1-8ccc-5e05e1bd1245' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '4ae2aaee-5aea-dcc1-8ccc-5e05e1bd1245' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '4ae2aaee-5aea-dcc1-8ccc-5e05e1bd1245' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '4ae2aaee-5aea-dcc1-8ccc-5e05e1bd1245' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '1701e688-db4b-fef6-3c6c-5e03021338eb' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '4', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 4
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '756903b7-08fd-7d40-33dc-5e28b92dd63b' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'a4bfc85b-618d-40d1-ba79-5e28bac5c982' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '6', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 6
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'a4bfc85b-618d-40d1-ba79-5e28bac5c982' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '6', verdes_firm_c = '8' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 6
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'a4bfc85b-618d-40d1-ba79-5e28bac5c982' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '6', verdes_firm_c = '8' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 6
+
+
+ product_qty 2
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'b1680c49-5286-677d-eb0e-5e28d348b6c4' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '9', verdes_firm_c = '5' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 9
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'b1680c49-5286-677d-eb0e-5e28d348b6c4' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '9', verdes_firm_c = '5' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 9
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'b1680c49-5286-677d-eb0e-5e28d348b6c4' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '9', verdes_firm_c = '5' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 9
+
+
+ product_qty 3
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '58cc7a69-c2cb-98f7-e39a-5e331cae8cf8' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '11', verdes_firm_c = '3' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 11
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '58cc7a69-c2cb-98f7-e39a-5e331cae8cf8' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '11', verdes_firm_c = '3' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 11
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'e56adebf-4cde-e1ae-b269-5de6c125c8f2' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '11', verdes_firm_c = '3' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 11
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '10', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 10
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'caf5938d-cc78-7feb-7a86-5de6cdd4e6a5' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', maduros_ripe_c = '1' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '1' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+update aos_products_cstm set invoice_stock_c = '0', rayados_breaking_c = '1' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '22b00aa2-4fd9-21d6-567f-5df88b65426f' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '15' where id_c = '943da1d3-77eb-847b-51ef-5c0aa778f35b'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 5
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'a4bfc85b-618d-40d1-ba79-5e28bac5c982' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '9', verdes_firm_c = '5' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 9
+
+
+ product_qty 3
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '2800a3ad-7150-a689-9c71-5de6c848a979' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '11', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 11
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '2800a3ad-7150-a689-9c71-5de6c848a979' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '11', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 11
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'b1680c49-5286-677d-eb0e-5e28d348b6c4' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '10', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 10
+
+
+ product_qty 2
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '58cc7a69-c2cb-98f7-e39a-5e331cae8cf8' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '11', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 11
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'ce640125-79e4-a8d1-7929-5de6cb4533d2' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '1' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '67d31822-4801-7ed2-9a3e-5e3699f7b91e' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '91e52910-c7e0-772e-2291-5e3692a7eef7'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 5
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '4ae2aaee-5aea-dcc1-8ccc-5e05e1bd1245' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '11', rayados_breaking_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 11
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '8fc47583-ad3f-61c5-6c06-5e3ef9e8679d' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', verdes_firm_c = '3' where id_c = '91e52910-c7e0-772e-2291-5e3692a7eef7'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '8fc47583-ad3f-61c5-6c06-5e3ef9e8679d' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', verdes_firm_c = '6' where id_c = '91e52910-c7e0-772e-2291-5e3692a7eef7'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '8fc47583-ad3f-61c5-6c06-5e3ef9e8679d' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', verdes_firm_c = '6' where id_c = '91e52910-c7e0-772e-2291-5e3692a7eef7'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'c50ba8ee-a47f-2c7d-4eed-5e443fac2272' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '12', verdes_firm_c = '4' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 12
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '9060064b-2f57-3660-09d7-5e464df29cb7' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '13', verdes_firm_c = '3' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 13
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'a1182bfa-cb6a-174b-75ed-5e464e08273c' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '14', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 14
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'a1182bfa-cb6a-174b-75ed-5e464e08273c' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '14', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 14
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'a1182bfa-cb6a-174b-75ed-5e464e08273c' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '14', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 14
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'd587f2c0-9ddc-1c49-a828-5e464faf60c0' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '15', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 15
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'd587f2c0-9ddc-1c49-a828-5e464faf60c0' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '15', verdes_firm_c = '1' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 15
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '29f24c3f-62a9-ad0c-8cbe-5e5565a61f19' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '2' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '378f614a-5558-0d14-184f-5e5ac4709835' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '378f614a-5558-0d14-184f-5e5ac4709835' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '378f614a-5558-0d14-184f-5e5ac4709835' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '378f614a-5558-0d14-184f-5e5ac4709835' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '70644311-0e63-5c08-8be1-5e5e83c592c9' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', rayados_breaking_c = '8' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 2
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '70644311-0e63-5c08-8be1-5e5e83c592c9' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', rayados_breaking_c = '8' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 2
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '70644311-0e63-5c08-8be1-5e5e83c592c9' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', rayados_breaking_c = '8' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 2
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '70644311-0e63-5c08-8be1-5e5e83c592c9' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', rayados_breaking_c = '8' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 2
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '82670c1d-ee52-bee7-daf8-5e5e8892abf1' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '3' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '82670c1d-ee52-bee7-daf8-5e5e8892abf1' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '3' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '82670c1d-ee52-bee7-daf8-5e5e8892abf1' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '3' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '82670c1d-ee52-bee7-daf8-5e5e8892abf1' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '3' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '82670c1d-ee52-bee7-daf8-5e5e8892abf1' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '3' where id_c = '25dcfe34-087c-0c7d-fca1-5bfbfcb9df70'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'b7b0461f-29a8-2f3f-1a39-5e5e8d1205e3' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', maduros_ripe_c = '35' where id_c = '61124cf2-2f0e-d74d-d715-5c0821ba63ab'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'b7b0461f-29a8-2f3f-1a39-5e5e8d1205e3' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', maduros_ripe_c = '35' where id_c = '61124cf2-2f0e-d74d-d715-5c0821ba63ab'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '8d73cb88-759d-793d-7b68-5e5e90c9e4ed' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '1', verdes_firm_c = '9' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 1
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '179001c7-9de2-28dd-fc3b-5e5e9049d8ab' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '2', verdes_firm_c = '8' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 2
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '490e0a3b-1df9-f52c-e7cf-5e5e90632431' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '51c7bbbe-ac87-fa99-25a5-5e5eb16b14f6' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '51c7bbbe-ac87-fa99-25a5-5e5eb16b14f6' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '51c7bbbe-ac87-fa99-25a5-5e5eb16b14f6' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '51c7bbbe-ac87-fa99-25a5-5e5eb16b14f6' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '51c7bbbe-ac87-fa99-25a5-5e5eb16b14f6' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '51c7bbbe-ac87-fa99-25a5-5e5eb16b14f6' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '51c7bbbe-ac87-fa99-25a5-5e5eb16b14f6' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '51c7bbbe-ac87-fa99-25a5-5e5eb16b14f6' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '0', verdes_firm_c = '10' where id_c = '85ad702f-5a96-8149-b1d7-5c0820a71f7f'
+
+
+ invoice_stock_c 0
+
+
+ product_qty 1
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = '6c69cf27-8536-e989-ff68-5e66754a71d2' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'b79e7de7-e971-25db-c68a-5e66784081df' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+SELECT pgc.product_category_list_c, pg.id, pc.verdes_firm_c, pc.rayados_breaking_c, pc.maduros_ripe_c, sum(CAST(pg.product_qty AS UNSIGNED)) as product_qty, pg.product_id as product_id, CAST(pc.balance_c AS UNSIGNED) as balance_c, CAST(pc.invoice_stock_c AS UNSIGNED) as invoice_stock_c FROM aos_products_quotes pg INNER JOIN aos_products_quotes_cstm pgc on pg.id = pgc.id_c INNER JOIN aos_products_cstm pc on pg.product_id=pc.id_c LEFT JOIN aos_line_item_groups lig ON pg.group_id = lig.id  WHERE pg.parent_type = 'AOS_Invoices' AND pg.parent_id = 'b79e7de7-e971-25db-c68a-5e66784081df' AND pg.deleted = 0 group by pc.id_c, pgc.product_category_list_c ORDER BY lig.number ASC, pg.number ASC
+
+
+update aos_products_cstm set invoice_stock_c = '5', verdes_firm_c = '5' where id_c = '4ee94706-7f71-ad2c-6a00-5c0820f36718'
+
+
+ invoice_stock_c 5
+
+
+ product_qty 1
+
+
